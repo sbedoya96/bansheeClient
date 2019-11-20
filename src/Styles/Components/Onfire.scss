@@ -1,0 +1,42 @@
+.Onfire {
+  border: 7px solid rgba(51, 51, 51, 1);
+  padding: 14%;
+  text-align: center;
+  height: 100%;
+  img {
+    width: 100%;
+    padding-bottom: 25%;
+    border-bottom: 1px solid rgba(112, 112, 112, 1);
+  }
+  p {
+    font-size: 20px !important;
+    font-weight: unset;
+  }
+  label {
+    letter-spacing: 1.68px;
+    padding: 30% 0 30%;
+    span {
+      color: $pink;
+    }
+  }
+  h2 {
+    font-size: 85px;
+    display: block;
+    position: relative;
+    font-weight: bold;
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      right: 0;
+      background-image: url("/puntos.png");
+      width: 27px;
+      height: 41px;
+    }
+    span {
+      font-size: 20px;
+      display: block;
+    }
+  }
+}

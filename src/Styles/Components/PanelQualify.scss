@@ -1,0 +1,38 @@
+.Qualify {
+  .Panel-text {
+    margin: 10% 0;
+    p {
+      letter-spacing: 3.68px !important;
+    }
+  }
+  img {
+    margin: 25% 0;
+    width: 70%;
+  }
+  .nomqualify {
+    margin: 10% 0;
+    p {
+      letter-spacing: 1.68px;
+      color: white;
+      margin: 0;
+      position: relative;
+      font-weight: bold;
+      font-size: 24px;
+      top: 17%;
+      &:last-child {
+        font-weight: unset;
+        font-size: 16px;
+        letter-spacing: 0;
+      }
+    }
+    label {
+      font-size: 40px;
+      padding: 0;
+      font-weight: bold;
+      margin: 0;
+      position: absolute;
+      bottom: 90%;
+      color: $gray;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.fireBar {
+  & > div {
+    div:first-child {
+      //circulo
+      svg {
+        display: none;
+      }
+      div {
+        background-image: url("/fire.png") !important;
+        background-color: transparent !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        box-shadow: none !important;
+        width: 80px !important;
+        height: 80px !important;
+        top: -220%;
+
+        & > span {
+          top: 60% !important;
+        }
+
+        span section span span {
+          //   display: none;
+
+          background: transparent
+            linear-gradient(
+              0deg,
+              #ff0000 0%,
+              #ffa700 46%,
+              #ffce00 73%,
+              #f2ff58 100%
+            )
+            0% 0% no-repeat padding-box !important;
+        }
+      }
+    }
+
+    & > div:last-child {
+      background: transparent
+        linear-gradient(
+          -90deg,
+          #ff0000 0%,
+          #ffa700 46%,
+          #ffce00 73%,
+          #f2ff58 100%
+        )
+        0% 0% no-repeat padding-box !important;
+      span {
+        background: #ffa700 !important;
+      }
+    }
+  }
+}

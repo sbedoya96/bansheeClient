@@ -1,0 +1,17 @@
+.topic {
+  margin-bottom: 5%;
+  .num {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    align-items: center;
+    background: $pink;
+    display: flex;
+    justify-content: center;
+    label {
+      font-size: 42px;
+      margin: 0;
+      color: white;
+    }
+  }
+}

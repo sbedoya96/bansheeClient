@@ -1,0 +1,113 @@
+.CChef {
+  color: #cc0043;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inherit;
+  margin: 10% 0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  &:hover {
+    color: $pink;
+    text-decoration: underline;
+  }
+}
+.global {
+  margin-top: -18%;
+}
+.Panel {
+  box-shadow: 0px 10px 40px #000000;
+  width: auto;
+  height: 100%;
+  position: relative;
+  display: block;
+  z-index: 1;
+  background: white;
+  &-banner {
+    width: 100%;
+    min-height: 200px;
+    background: $pink;
+    bottom: 40px;
+    left: 20px;
+    position: relative;
+  }
+  &-img {
+    text-align: center;
+    margin: 7% 0;
+    img {
+      background: white;
+      padding: 10%;
+      box-shadow: 0px 10px 20px #000000;
+    }
+    &::after {
+      content: url("/rayo.png");
+      right: 25%;
+      position: relative;
+      bottom: 20%;
+    }
+  }
+
+  &-text p:first-child {
+    letter-spacing: 1.68px;
+    color: white;
+    margin: 0;
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    top: 17%;
+  }
+
+  &-text p:nth-child(2) {
+    color: #dedede;
+    margin: 0;
+    position: relative;
+    top: 3%;
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  &-text p:last-child {
+    color: white;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    font-size: 20px;
+    bottom: 9%;
+    position: relative;
+  }
+  &-tareas-pendientes {
+    padding: 0 3%;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #333333;
+    span {
+      color: $pink;
+    }
+  }
+}
+.graph {
+  padding: 10% 1%;
+  label {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 7%;
+  }
+}
+.top {
+  padding: 5%;
+  img {
+    padding-bottom: 5%;
+  }
+  label {
+    font-size: 31px;
+    padding-left: 23%;
+    font-weight: bold;
+    letter-spacing: 1.68px;
+    span {
+      color: $pink;
+    }
+  }
+}

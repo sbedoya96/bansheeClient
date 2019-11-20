@@ -1,0 +1,16 @@
+.Task-table {
+  text-align: center;
+  th {
+    width: 50%;
+    color: white !important;
+    width: 50%;
+    background-color: #333333;
+  }
+  td {
+    cursor: pointer;
+
+    &:first-child {
+      width: 5%;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.QualifyCard {
+  margin: 5% 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  border: 3px solid black;
+  .card-img-top {
+    width: 100%;
+    margin: 0;
+    height: 240px;
+  }
+  a {
+    color: $pink !important;
+  }
+  &-disable {
+    filter: grayscale(100%);
+    cursor: no-drop;
+  }
+}
